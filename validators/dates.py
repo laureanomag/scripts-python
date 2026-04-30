@@ -1,7 +1,7 @@
 import re
 from datetime import datetime
 
-# VALIDACIONES BÁSICAS
+# Funciones Basicas 
 def es_dni(texto):
     # Verifica si tiene solo números y 7 u 8 dígitos
     return texto.isdigit() and len(texto) in [7, 8]
